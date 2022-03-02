@@ -1,0 +1,126 @@
+body {
+    background-color: #FFF89A;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color:midnightblue;
+    margin: 50px auto 0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+}
+
+h2{
+    color:#603601;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #361500;
+}
+
+
+.top-container {
+    background-color: #9ADCFF;
+    height: 1500px;
+
+}
+
+
+.bottom-container {
+    background-color: #9ADCFF;
+    margin-top: 0;
+    height: 100px;
+}
+
+
+.joni {
+    position: relative;
+    left: 350px;
+    top: 100px
+}
+
+.world {
+    position: relative;
+    right: 50px;
+    top: 150px;
+    display: inline-block;
+}
+
+.nowar {
+    position: absolute;
+    left: 620px;
+    top: 720px;
+    display: inline-block;
+}
+
+.birdie2 {
+    position: relative;
+    top: 350px;
+}
+
+.pas {
+    position: relative;
+    border-radius: 100%;
+}
+
+.title {
+    position: relative;
+    top: 80px;
+}
+
+.paragraph1 {
+    position: relative;
+    top: 80px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.sports1 {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.computer1 {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #9ADCFF);
+    background-image: -moz-linear-gradient(top, #3498db, #9ADCFF);
+    background-image: -ms-linear-gradient(top, #3498db, #9ADCFF);
+    background-image: -o-linear-gradient(top, #3498db, #9ADCFF);
+    background-image: linear-gradient(to bottom, #3498db, #9ADCFF);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
